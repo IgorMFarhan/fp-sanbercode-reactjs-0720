@@ -26,7 +26,8 @@ import {
   cibStripe,
   cibPaypal,
   cibGooglePay,
-  cibCcAmex
+  cibCcAmex,
+  cibReact,
 } from '@coreui/icons'
 import {
   cifUs,
@@ -38,6 +39,7 @@ import {
 } from '@coreui/icons'
 import {
   cilAlignCenter,
+  cilAccountLogout,
   cilAlignLeft,
   cilAlignRight,
   cilApplicationsSettings,
@@ -73,6 +75,8 @@ import {
   cilEuro,
   cilGlobeAlt,
   cilGrid,
+  cilGamepad,
+  cilFingerprint,
   cilFile,
   cilFullscreen,
   cilFullscreenExit,
@@ -96,6 +100,7 @@ import {
   cilMagnifyingGlass,
   cilMap,
   cilMoon,
+  cilMovie,
   cilNotes,
   cilOptions,
   cilPaperclip,
@@ -116,6 +121,7 @@ import {
   cilSpeedometer,
   cilSpreadsheet,
   cilStar,
+  cilSend,
   cilSun,
   cilTags,
   cilTask,
@@ -136,6 +142,7 @@ export const icons = Object.assign({}, {
   logoNegative
 }, {
   cilAlignCenter,
+  cilAccountLogout,
   cilAlignLeft,
   cilAlignRight,
   cilApplicationsSettings,
@@ -172,9 +179,11 @@ export const icons = Object.assign({}, {
   cilGlobeAlt,
   cilGrid,
   cilFile,
+  cilFingerprint,
   cilFullscreen,
   cilFullscreenExit,
   cilGraph,
+  cilGamepad,
   cilHome,
   cilInbox,
   cilIndentDecrease,
@@ -194,6 +203,7 @@ export const icons = Object.assign({}, {
   cilMagnifyingGlass,
   cilMap,
   cilMoon,
+  cilMovie,
   cilNotes,
   cilOptions,
   cilPaperclip,
@@ -213,6 +223,7 @@ export const icons = Object.assign({}, {
   cilSpeech,
   cilSpeedometer,
   cilSpreadsheet,
+  cilSend,
   cilStar,
   cilSun,
   cilTags,
@@ -257,5 +268,6 @@ export const icons = Object.assign({}, {
   cibStripe,
   cibPaypal,
   cibGooglePay,
-  cibCcAmex
+  cibCcAmex,
+  cibReact,
 })

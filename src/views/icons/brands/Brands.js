@@ -2,7 +2,6 @@ import React from 'react'
 import { CCard, CCardBody, CCardHeader, CCol, CRow } from '@coreui/react'
 import CIcon from '@coreui/icons-react'
 import { brandSet } from '@coreui/icons'
-import { DocsLink } from 'src/reusable'
 
 const toKebabCase = (str) => {
   return str.replace(/([a-z0-9]|(?=[A-Z]))([A-Z])/g, '$1-$2').toLowerCase()
@@ -21,8 +20,12 @@ const CoreUIIcons = () => {
   return (
     <CCard>
       <CCardHeader>
-        Brand Icons
-        <DocsLink href="https://github.com/coreui/coreui-icons" text="GitHub"/>
+        Brand Icons / as CIcon{' '}
+        <div className="card-header-actions">
+          <a href="https://github.com/coreui/coreui-icons" rel="noreferrer noopener" target="_blank" className="card-header-action">
+            <small className="text-muted">Github</small>
+          </a>
+        </div>
       </CCardHeader>
       <CCardBody>
         <CRow className="text-center">
